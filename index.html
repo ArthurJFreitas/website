@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Scada:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="./script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,6 +23,7 @@
           <a href="#contact">Contact</a>
           <a href="#skills">Skills</a>
         </div>
+        <button id="theme-toggle" class="btn-theme-toggle">☀️</button>
       </nav>
       <section class="landing-section" id="home">
         <div class="landing-section-text">
@@ -30,13 +32,17 @@
           <h5>Based in Brazil 🇧🇷</h5>
           <div class="btn-resume-wrapper">
             <div class="btn-background"></div>
-            <button class="resume">Resume</button>
+            <a href="assets/arthur-resume.pdf" download >
+              <button class="resume">
+                Resume
+              </button>
+            </a>
           </div>
         </div>
         <div class="profile-wrapper">
           <img
             class="profile-picture"
-            src="./me.jpeg"
+            src="./assets/me.jpeg"
             alt="Arthur profile picture"
           />
           <div class="profile-picture-border"></div>
@@ -96,7 +102,7 @@
       <section>
         <h2>contact.</h2>
         <div class="contact-us-content">
-          <img class="contacte-picture" src="./phone.png" alt="Old phone" />
+          <img class="contacte-picture" src="./assets/phone.png" alt="Old phone" />
           <div class="contact-us-info">
             <p>
               Check out my profiles on LinkedIn, and Twitter or contact me via
